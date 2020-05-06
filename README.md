@@ -6,4 +6,4 @@
 <a href="https://github.com/alirezsbashi/Test-CountDownTimer-in-android-kotlin">
 <p dir="rtl">نسخه اول</p>
   </a>
-<img src="scr001.png" alt="Test CountDownTimer in android kotlin v2" title="Test CountDownTimer in android kotlin v2">
+<img src="sce001.png" alt="Test CountDownTimer in android kotlin v2" title="Test CountDownTimer in android kotlin v2">
