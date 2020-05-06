@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_main_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$10"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_main_discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$5"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_main_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Timer"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/btn_main_start"
+        android:onClick="on"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btn_main_pause"
+        android:onClick="on"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pause"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btn_main_restart"
+        android:onClick="on"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restart"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+</LinearLayout>
